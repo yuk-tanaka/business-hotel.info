@@ -39,7 +39,6 @@ module.exports = {
   plugins: [
     '@/plugins/filters',
     '@/plugins/vuetify',
-    '@/plugins/vue-notification',
   ],
 
   /*
