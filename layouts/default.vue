@@ -1,0 +1,27 @@
+<template>
+  <v-app>
+    <v-toolbar
+      app
+      color="green darken-2"
+      dark
+    >
+      <v-toolbar-items>
+        <v-btn
+          flat
+          to="/">
+          <v-icon>home</v-icon>
+        </v-btn>
+        <v-btn
+          flat
+          to="/guide">
+          ガイド
+        </v-btn>
+      </v-toolbar-items>
+    </v-toolbar>
+    <v-content>
+      <v-container>
+        <nuxt/>
+      </v-container>
+    </v-content>
+  </v-app>
+</template>
